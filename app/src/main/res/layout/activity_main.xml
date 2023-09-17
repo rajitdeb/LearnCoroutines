@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.387"
+        app:layout_constraintVertical_bias="0.316"
         tools:text="0" />
 
     <Button
@@ -38,5 +38,15 @@
         app:layout_constraintEnd_toEndOf="@+id/updateCounterBtn"
         app:layout_constraintStart_toStartOf="@+id/updateCounterBtn"
         app:layout_constraintTop_toBottomOf="@+id/updateCounterBtn" />
+
+    <Button
+        android:id="@+id/nextChapterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Chapter: Suspending Functions"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/longRunningTaskBtn"
+        app:layout_constraintStart_toStartOf="@+id/longRunningTaskBtn"
+        app:layout_constraintTop_toBottomOf="@+id/longRunningTaskBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

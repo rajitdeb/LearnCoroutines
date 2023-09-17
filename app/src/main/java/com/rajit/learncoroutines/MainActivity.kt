@@ -1,5 +1,6 @@
 package com.rajit.learncoroutines
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -131,6 +132,11 @@ class MainActivity : AppCompatActivity() {
             }
 
             Log.i(TAG, "onLongBtnClick: Thread Name: ${Thread.currentThread().name}")
+
+        }
+
+        binding.nextChapterBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, SuspendFnChapterActivity::class.java))
         }
 
     }
