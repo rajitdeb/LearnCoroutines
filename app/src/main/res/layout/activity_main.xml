@@ -71,4 +71,14 @@
         app:layout_constraintStart_toStartOf="@+id/launchAsyncBtn"
         app:layout_constraintTop_toBottomOf="@+id/launchAsyncBtn" />
 
+    <Button
+        android:id="@+id/withContextRunBlockBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/chapter_with_context_run_blocking"
+        app:layout_constraintEnd_toEndOf="@+id/jobCancellationBtn"
+        app:layout_constraintStart_toStartOf="@+id/jobCancellationBtn"
+        app:layout_constraintTop_toBottomOf="@+id/jobCancellationBtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

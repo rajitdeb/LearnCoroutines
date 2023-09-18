@@ -5,4 +5,5 @@
     <string name="next_chapter_suspending_functions">Chapter: Suspending Functions</string>
     <string name="next_chapter_launch_async">Chapter: Launch vs Async</string>
     <string name="next_chapter_job_cancel">Chapter: Jobs and Cancellation</string>
+    <string name="chapter_with_context_run_blocking">Chapter: With Context Run Blocking</string>
 </resources>

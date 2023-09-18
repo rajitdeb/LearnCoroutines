@@ -147,6 +147,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, CoroutineJobsAndCancellationActivity::class.java))
         }
 
+        binding.withContextRunBlockBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, WithContextRunBlockingActivity::class.java))
+        }
+
     }
 
     private fun executeLongRunningTask() {
