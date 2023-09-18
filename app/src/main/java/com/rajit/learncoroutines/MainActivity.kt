@@ -139,6 +139,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, SuspendFnChapterActivity::class.java))
         }
 
+        binding.launchAsyncBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, LaunchAsyncActivity::class.java))
+        }
+
     }
 
     private fun executeLongRunningTask() {

@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
+        app:layout_constraintVertical_bias="0.225"
         tools:text="0" />
 
     <Button
@@ -31,22 +31,34 @@
 
     <Button
         android:id="@+id/longRunningTaskBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/execute_long_running_task"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/updateCounterBtn"
-        app:layout_constraintStart_toStartOf="@+id/updateCounterBtn"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/execute_long_running_task"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/updateCounterBtn" />
 
     <Button
         android:id="@+id/nextChapterBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Next Chapter: Suspending Functions"
+        android:text="@string/next_chapter_suspending_functions"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="@+id/longRunningTaskBtn"
         app:layout_constraintStart_toStartOf="@+id/longRunningTaskBtn"
         app:layout_constraintTop_toBottomOf="@+id/longRunningTaskBtn" />
+
+    <Button
+        android:id="@+id/launchAsyncBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next_chapter_launch_async"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/nextChapterBtn"
+        app:layout_constraintStart_toStartOf="@+id/nextChapterBtn"
+        app:layout_constraintTop_toBottomOf="@+id/nextChapterBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
