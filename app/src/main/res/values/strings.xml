@@ -4,4 +4,5 @@
     <string name="execute_long_running_task">Execute Long Running Task</string>
     <string name="next_chapter_suspending_functions">Chapter: Suspending Functions</string>
     <string name="next_chapter_launch_async">Chapter: Launch vs Async</string>
+    <string name="next_chapter_job_cancel">Chapter: Jobs and Cancellation</string>
 </resources>

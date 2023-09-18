@@ -61,4 +61,14 @@
         app:layout_constraintStart_toStartOf="@+id/nextChapterBtn"
         app:layout_constraintTop_toBottomOf="@+id/nextChapterBtn" />
 
+    <Button
+        android:id="@+id/jobCancellationBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next_chapter_job_cancel"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/launchAsyncBtn"
+        app:layout_constraintStart_toStartOf="@+id/launchAsyncBtn"
+        app:layout_constraintTop_toBottomOf="@+id/launchAsyncBtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

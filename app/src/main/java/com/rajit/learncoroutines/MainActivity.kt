@@ -143,6 +143,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, LaunchAsyncActivity::class.java))
         }
 
+        binding.jobCancellationBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, CoroutineJobsAndCancellationActivity::class.java))
+        }
+
     }
 
     private fun executeLongRunningTask() {
