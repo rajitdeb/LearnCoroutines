@@ -13,6 +13,12 @@
         android:theme="@style/Theme.LearnCoroutines"
         tools:targetApi="31">
         <activity
+            android:name=".SampleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewModelLifecycleScopeActivity"
+            android:exported="false" />
+        <activity
             android:name=".WithContextRunBlockingActivity"
             android:exported="false" />
         <activity

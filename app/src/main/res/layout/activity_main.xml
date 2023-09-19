@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225"
+        app:layout_constraintVertical_bias="0.136"
         tools:text="0" />
 
     <Button
@@ -80,5 +80,15 @@
         app:layout_constraintEnd_toEndOf="@+id/jobCancellationBtn"
         app:layout_constraintStart_toStartOf="@+id/jobCancellationBtn"
         app:layout_constraintTop_toBottomOf="@+id/jobCancellationBtn" />
+
+    <Button
+        android:id="@+id/finalChapterBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/final_chapter_viewmodelscope_and_lifecyclescope"
+        app:layout_constraintEnd_toEndOf="@+id/withContextRunBlockBtn"
+        app:layout_constraintStart_toStartOf="@+id/withContextRunBlockBtn"
+        app:layout_constraintTop_toBottomOf="@+id/withContextRunBlockBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

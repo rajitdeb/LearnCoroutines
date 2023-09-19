@@ -151,6 +151,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, WithContextRunBlockingActivity::class.java))
         }
 
+        binding.finalChapterBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ViewModelLifecycleScopeActivity::class.java))
+        }
+
     }
 
     private fun executeLongRunningTask() {
